@@ -10,7 +10,8 @@ import (
 	"encoding/hex"
 	"errors"
 	"fmt"
-	"github.com/cryptic-monk/go-nyzo/internal/nyzo/utilities"
+	//"go_nyzo/internal/nyzo/utilities"
+	"go_nyzo/internal/nyzo/utilities"
 	"io/ioutil"
 	"strings"
 )

@@ -4,7 +4,7 @@ This is the main package for the verifier application, it sets up the verifier a
 package main
 
 import (
-	"github.com/cryptic-monk/go-nyzo/internal/nyzo"
+	"go_nyzo/internal/nyzo"
 )
 
 func main() {

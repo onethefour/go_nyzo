@@ -1,8 +1,8 @@
 package message_content
 
 import (
-	"github.com/cryptic-monk/go-nyzo/internal/nyzo/messages/message_content/message_fields"
-	"github.com/cryptic-monk/go-nyzo/internal/nyzo/node"
+	"go_nyzo/internal/nyzo/messages/message_content/message_fields"
+	"go_nyzo/internal/nyzo/node"
 	"io"
 )
 

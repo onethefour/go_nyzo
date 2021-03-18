@@ -4,9 +4,9 @@ import (
 	"bufio"
 	"errors"
 	"fmt"
-	"github.com/cryptic-monk/go-nyzo/internal/logging"
-	"github.com/cryptic-monk/go-nyzo/internal/nyzo/configuration"
-	"github.com/cryptic-monk/go-nyzo/internal/nyzo/networking"
+	"go_nyzo/internal/logging"
+	"go_nyzo/internal/nyzo/configuration"
+	"go_nyzo/internal/nyzo/networking"
 	"os"
 )
 

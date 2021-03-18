@@ -6,7 +6,7 @@ package node
 
 import (
 	"errors"
-	"github.com/cryptic-monk/go-nyzo/internal/nyzo/messages/message_content/message_fields"
+	"go_nyzo/internal/nyzo/messages/message_content/message_fields"
 	"io"
 	"time"
 )

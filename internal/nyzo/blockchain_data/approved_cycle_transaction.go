@@ -6,7 +6,7 @@ this, are stored because they are small and helpful for anyone reviewing the bal
 package blockchain_data
 
 import (
-	"github.com/cryptic-monk/go-nyzo/internal/nyzo/messages/message_content/message_fields"
+	"go_nyzo/internal/nyzo/messages/message_content/message_fields"
 	"io"
 )
 

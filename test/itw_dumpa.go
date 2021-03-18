@@ -5,7 +5,7 @@ Also: wannabe mumble rapper.
 package test
 
 import (
-	"github.com/cryptic-monk/go-nyzo/internal/nyzo/messages/message_content/message_fields"
+	"go_nyzo/internal/nyzo/messages/message_content/message_fields"
 	"io/ioutil"
 	"os"
 	"path/filepath"

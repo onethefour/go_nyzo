@@ -4,7 +4,7 @@ TODO: the Java version sends V1 join messages during the startup process, but V2
 package message_content
 
 import (
-	"github.com/cryptic-monk/go-nyzo/internal/nyzo/messages/message_content/message_fields"
+	"go_nyzo/internal/nyzo/messages/message_content/message_fields"
 	"io"
 )
 

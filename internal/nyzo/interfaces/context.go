@@ -7,9 +7,9 @@ RunMode here is more convenient than handling it like the more complex component
 package interfaces
 
 import (
-	"github.com/cryptic-monk/go-nyzo/internal/logging"
-	"github.com/cryptic-monk/go-nyzo/internal/nyzo/configuration"
-	"github.com/cryptic-monk/go-nyzo/pkg/identity"
+	"go_nyzo/internal/logging"
+	"go_nyzo/internal/nyzo/configuration"
+	"go_nyzo/pkg/identity"
 	"sync"
 	"sync/atomic"
 )

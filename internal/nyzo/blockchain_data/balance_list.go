@@ -7,8 +7,8 @@ package blockchain_data
 
 import (
 	"bytes"
-	"github.com/cryptic-monk/go-nyzo/internal/nyzo/messages/message_content/message_fields"
-	"github.com/cryptic-monk/go-nyzo/internal/nyzo/utilities"
+	"go_nyzo/internal/nyzo/messages/message_content/message_fields"
+	"go_nyzo/internal/nyzo/utilities"
 	"io"
 	"sort"
 )

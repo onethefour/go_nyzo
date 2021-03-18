@@ -14,7 +14,7 @@ package key_value_store
 import (
 	"bufio"
 	"fmt"
-	"github.com/cryptic-monk/go-nyzo/internal/nyzo/interfaces"
+	"go_nyzo/internal/nyzo/interfaces"
 	"io/ioutil"
 	"os"
 	"strings"

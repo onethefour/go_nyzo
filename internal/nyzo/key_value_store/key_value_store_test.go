@@ -1,8 +1,8 @@
 package key_value_store
 
 import (
-	"github.com/cryptic-monk/go-nyzo/internal/nyzo/configuration"
-	"github.com/cryptic-monk/go-nyzo/internal/nyzo/interfaces"
+	"go_nyzo/internal/nyzo/configuration"
+	"go_nyzo/internal/nyzo/interfaces"
 	"math/rand"
 	"strconv"
 	"testing"

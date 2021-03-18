@@ -4,8 +4,8 @@ A small set of components related to peer connections.
 package networking
 
 import (
-	"github.com/cryptic-monk/go-nyzo/internal/nyzo/messages/message_content/message_fields"
-	"github.com/cryptic-monk/go-nyzo/pkg/identity"
+	"go_nyzo/internal/nyzo/messages/message_content/message_fields"
+	"go_nyzo/pkg/identity"
 	"strconv"
 	"strings"
 )

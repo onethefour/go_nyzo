@@ -5,10 +5,10 @@ package transaction_manager
 
 import (
 	"fmt"
-	"github.com/cryptic-monk/go-nyzo/internal/nyzo/blockchain_data"
-	"github.com/cryptic-monk/go-nyzo/internal/nyzo/configuration"
-	"github.com/cryptic-monk/go-nyzo/internal/nyzo/messages/message_content/message_fields"
-	"github.com/cryptic-monk/go-nyzo/internal/nyzo/utilities"
+	"go_nyzo/internal/nyzo/blockchain_data"
+	"go_nyzo/internal/nyzo/configuration"
+	"go_nyzo/internal/nyzo/messages/message_content/message_fields"
+	"go_nyzo/internal/nyzo/utilities"
 	"os"
 )
 

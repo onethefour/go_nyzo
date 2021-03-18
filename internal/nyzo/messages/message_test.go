@@ -2,7 +2,7 @@ package messages
 
 import (
 	"bytes"
-	"github.com/cryptic-monk/go-nyzo/pkg/identity"
+	"go_nyzo/pkg/identity"
 	"io/ioutil"
 	"path/filepath"
 	"strconv"

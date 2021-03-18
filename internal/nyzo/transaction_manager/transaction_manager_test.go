@@ -1,14 +1,14 @@
 package transaction_manager
 
 import (
-	"github.com/cryptic-monk/go-nyzo/internal/nyzo/block_authority"
-	"github.com/cryptic-monk/go-nyzo/internal/nyzo/block_file_handler"
-	"github.com/cryptic-monk/go-nyzo/internal/nyzo/blockchain_data"
-	"github.com/cryptic-monk/go-nyzo/internal/nyzo/configuration"
-	"github.com/cryptic-monk/go-nyzo/internal/nyzo/cycle_authority"
-	"github.com/cryptic-monk/go-nyzo/internal/nyzo/interfaces"
-	"github.com/cryptic-monk/go-nyzo/internal/nyzo/key_value_store"
-	"github.com/cryptic-monk/go-nyzo/pkg/identity"
+	"go_nyzo/internal/nyzo/block_authority"
+	"go_nyzo/internal/nyzo/block_file_handler"
+	"go_nyzo/internal/nyzo/blockchain_data"
+	"go_nyzo/internal/nyzo/configuration"
+	"go_nyzo/internal/nyzo/cycle_authority"
+	"go_nyzo/internal/nyzo/interfaces"
+	"go_nyzo/internal/nyzo/key_value_store"
+	"go_nyzo/pkg/identity"
 	"os"
 	"testing"
 )

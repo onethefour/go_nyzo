@@ -1,11 +1,11 @@
 package block_authority
 
 import (
-	"github.com/cryptic-monk/go-nyzo/internal/nyzo/block_file_handler"
-	"github.com/cryptic-monk/go-nyzo/internal/nyzo/configuration"
-	"github.com/cryptic-monk/go-nyzo/internal/nyzo/cycle_authority"
-	"github.com/cryptic-monk/go-nyzo/internal/nyzo/interfaces"
-	"github.com/cryptic-monk/go-nyzo/internal/nyzo/transaction_manager"
+	"go_nyzo/internal/nyzo/block_file_handler"
+	"go_nyzo/internal/nyzo/configuration"
+	"go_nyzo/internal/nyzo/cycle_authority"
+	"go_nyzo/internal/nyzo/interfaces"
+	"go_nyzo/internal/nyzo/transaction_manager"
 	"testing"
 )
 

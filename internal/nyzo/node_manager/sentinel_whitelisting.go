@@ -2,10 +2,10 @@ package node_manager
 
 import (
 	"bytes"
-	"github.com/cryptic-monk/go-nyzo/internal/logging"
-	"github.com/cryptic-monk/go-nyzo/internal/nyzo/messages"
-	"github.com/cryptic-monk/go-nyzo/internal/nyzo/messages/message_content"
-	"github.com/cryptic-monk/go-nyzo/internal/nyzo/networking"
+	"go_nyzo/internal/logging"
+	"go_nyzo/internal/nyzo/messages"
+	"go_nyzo/internal/nyzo/messages/message_content"
+	"go_nyzo/internal/nyzo/networking"
 	"time"
 )
 

@@ -6,7 +6,7 @@ to receive.
 package router
 
 import (
-	"github.com/cryptic-monk/go-nyzo/internal/nyzo/messages"
+	"go_nyzo/internal/nyzo/messages"
 	"sync"
 )
 

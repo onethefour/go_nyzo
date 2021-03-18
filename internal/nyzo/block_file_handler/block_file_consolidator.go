@@ -6,9 +6,9 @@ package block_file_handler
 import (
 	"errors"
 	"fmt"
-	"github.com/cryptic-monk/go-nyzo/internal/logging"
-	"github.com/cryptic-monk/go-nyzo/internal/nyzo/configuration"
-	"github.com/cryptic-monk/go-nyzo/internal/nyzo/messages/message_content/message_fields"
+	"go_nyzo/internal/logging"
+	"go_nyzo/internal/nyzo/configuration"
+	"go_nyzo/internal/nyzo/messages/message_content/message_fields"
 	"os"
 )
 

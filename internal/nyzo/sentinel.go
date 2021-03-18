@@ -4,9 +4,9 @@ A node that protects in-cycle verifiers and cycle joins.
 package nyzo
 
 import (
-	"github.com/cryptic-monk/go-nyzo/internal/logging"
-	"github.com/cryptic-monk/go-nyzo/internal/nyzo/configuration"
-	"github.com/cryptic-monk/go-nyzo/internal/nyzo/interfaces"
+	"go_nyzo/internal/logging"
+	"go_nyzo/internal/nyzo/configuration"
+	"go_nyzo/internal/nyzo/interfaces"
 )
 
 type SentinelInterface interface {
