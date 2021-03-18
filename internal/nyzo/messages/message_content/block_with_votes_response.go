@@ -1,8 +1,8 @@
 package message_content
 
 import (
-	"go_nyzo/internal/nyzo/blockchain_data"
-	"go_nyzo/internal/nyzo/messages/message_content/message_fields"
+	"github.com/onethefour/go_nyzo/internal/nyzo/blockchain_data"
+	"github.com/onethefour/go_nyzo/internal/nyzo/messages/message_content/message_fields"
 	"io"
 )
 

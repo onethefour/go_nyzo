@@ -4,7 +4,7 @@ This is the main package for the archive node application, it sets up the archiv
 package main
 
 import (
-	"go_nyzo/internal/nyzo"
+	"github.com/onethefour/go_nyzo/internal/nyzo"
 )
 
 func main() {

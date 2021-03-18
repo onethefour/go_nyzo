@@ -4,10 +4,10 @@ A light node that follows the blockchain and archives it.
 package nyzo
 
 import (
-	"go_nyzo/internal/logging"
-	"go_nyzo/internal/nyzo/configuration"
-	"go_nyzo/internal/nyzo/data_store"
-	"go_nyzo/internal/nyzo/interfaces"
+	"github.com/onethefour/go_nyzo/internal/logging"
+	"github.com/onethefour/go_nyzo/internal/nyzo/configuration"
+	"github.com/onethefour/go_nyzo/internal/nyzo/data_store"
+	"github.com/onethefour/go_nyzo/internal/nyzo/interfaces"
 )
 
 type ArchiveNodeInterface interface {

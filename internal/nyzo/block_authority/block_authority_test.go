@@ -1,11 +1,11 @@
 package block_authority
 
 import (
-	"go_nyzo/internal/nyzo/block_file_handler"
-	"go_nyzo/internal/nyzo/configuration"
-	"go_nyzo/internal/nyzo/cycle_authority"
-	"go_nyzo/internal/nyzo/interfaces"
-	"go_nyzo/internal/nyzo/transaction_manager"
+	"github.com/onethefour/go_nyzo/internal/nyzo/block_file_handler"
+	"github.com/onethefour/go_nyzo/internal/nyzo/configuration"
+	"github.com/onethefour/go_nyzo/internal/nyzo/cycle_authority"
+	"github.com/onethefour/go_nyzo/internal/nyzo/interfaces"
+	"github.com/onethefour/go_nyzo/internal/nyzo/transaction_manager"
 	"testing"
 )
 

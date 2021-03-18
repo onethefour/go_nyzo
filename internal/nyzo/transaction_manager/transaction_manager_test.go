@@ -1,14 +1,14 @@
 package transaction_manager
 
 import (
-	"go_nyzo/internal/nyzo/block_authority"
-	"go_nyzo/internal/nyzo/block_file_handler"
-	"go_nyzo/internal/nyzo/blockchain_data"
-	"go_nyzo/internal/nyzo/configuration"
-	"go_nyzo/internal/nyzo/cycle_authority"
-	"go_nyzo/internal/nyzo/interfaces"
-	"go_nyzo/internal/nyzo/key_value_store"
-	"go_nyzo/pkg/identity"
+	"github.com/onethefour/go_nyzo/internal/nyzo/block_authority"
+	"github.com/onethefour/go_nyzo/internal/nyzo/block_file_handler"
+	"github.com/onethefour/go_nyzo/internal/nyzo/blockchain_data"
+	"github.com/onethefour/go_nyzo/internal/nyzo/configuration"
+	"github.com/onethefour/go_nyzo/internal/nyzo/cycle_authority"
+	"github.com/onethefour/go_nyzo/internal/nyzo/interfaces"
+	"github.com/onethefour/go_nyzo/internal/nyzo/key_value_store"
+	"github.com/onethefour/go_nyzo/pkg/identity"
 	"os"
 	"testing"
 )

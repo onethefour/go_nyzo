@@ -2,10 +2,10 @@ package node_manager
 
 import (
 	"bytes"
-	"go_nyzo/internal/logging"
-	"go_nyzo/internal/nyzo/messages"
-	"go_nyzo/internal/nyzo/messages/message_content"
-	"go_nyzo/internal/nyzo/networking"
+	"github.com/onethefour/go_nyzo/internal/logging"
+	"github.com/onethefour/go_nyzo/internal/nyzo/messages"
+	"github.com/onethefour/go_nyzo/internal/nyzo/messages/message_content"
+	"github.com/onethefour/go_nyzo/internal/nyzo/networking"
 	"time"
 )
 

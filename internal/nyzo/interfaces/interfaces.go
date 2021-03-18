@@ -4,8 +4,8 @@ The interfaces presented here summarize the complex interaction of various compo
 package interfaces
 
 import (
-	"go_nyzo/internal/nyzo/blockchain_data"
-	"go_nyzo/internal/nyzo/networking"
+	"github.com/onethefour/go_nyzo/internal/nyzo/blockchain_data"
+	"github.com/onethefour/go_nyzo/internal/nyzo/networking"
 )
 
 // Listen only component.

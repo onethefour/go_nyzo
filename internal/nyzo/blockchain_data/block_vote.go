@@ -4,7 +4,7 @@ A block vote.
 package blockchain_data
 
 import (
-	"go_nyzo/internal/nyzo/messages/message_content/message_fields"
+	"github.com/onethefour/go_nyzo/internal/nyzo/messages/message_content/message_fields"
 	"io"
 )
 

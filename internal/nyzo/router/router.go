@@ -6,7 +6,7 @@ to receive.
 package router
 
 import (
-	"go_nyzo/internal/nyzo/messages"
+	"github.com/onethefour/go_nyzo/internal/nyzo/messages"
 	"sync"
 )
 

@@ -4,14 +4,14 @@ Manage transactions.
 package transaction_manager
 
 import (
-	"go_nyzo/internal/logging"
-	"go_nyzo/internal/nyzo/blockchain_data"
-	"go_nyzo/internal/nyzo/configuration"
-	"go_nyzo/internal/nyzo/interfaces"
-	"go_nyzo/internal/nyzo/messages"
-	"go_nyzo/internal/nyzo/messages/message_content/message_fields"
-	"go_nyzo/internal/nyzo/router"
-	"go_nyzo/internal/nyzo/utilities"
+	"github.com/onethefour/go_nyzo/internal/logging"
+	"github.com/onethefour/go_nyzo/internal/nyzo/blockchain_data"
+	"github.com/onethefour/go_nyzo/internal/nyzo/configuration"
+	"github.com/onethefour/go_nyzo/internal/nyzo/interfaces"
+	"github.com/onethefour/go_nyzo/internal/nyzo/messages"
+	"github.com/onethefour/go_nyzo/internal/nyzo/messages/message_content/message_fields"
+	"github.com/onethefour/go_nyzo/internal/nyzo/router"
+	"github.com/onethefour/go_nyzo/internal/nyzo/utilities"
 	"os"
 	"sync"
 )

@@ -1,4 +1,4 @@
-module go_nyzo
+module github.com/onethefour/go_nyzo
 
 go 1.14
 

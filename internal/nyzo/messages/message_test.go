@@ -2,7 +2,7 @@ package messages
 
 import (
 	"bytes"
-	"go_nyzo/pkg/identity"
+	"github.com/onethefour/go_nyzo/pkg/identity"
 	"io/ioutil"
 	"path/filepath"
 	"strconv"

@@ -3,7 +3,7 @@ package data_store
 import (
 	"database/sql"
 	"fmt"
-	"go_nyzo/internal/nyzo/blockchain_data"
+	"github.com/onethefour/go_nyzo/internal/nyzo/blockchain_data"
 	"math/rand"
 	"testing"
 	"time"

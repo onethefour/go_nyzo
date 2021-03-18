@@ -3,8 +3,8 @@ package node_manager
 import (
 	"bufio"
 	"fmt"
-	"go_nyzo/internal/nyzo/configuration"
-	"go_nyzo/internal/nyzo/interfaces"
+	"github.com/onethefour/go_nyzo/internal/nyzo/configuration"
+	"github.com/onethefour/go_nyzo/internal/nyzo/interfaces"
 	"os"
 	"strings"
 	"testing"

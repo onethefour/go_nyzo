@@ -10,8 +10,8 @@ import (
 	"encoding/hex"
 	"errors"
 	"fmt"
-	//"go_nyzo/internal/nyzo/utilities"
-	"go_nyzo/internal/nyzo/utilities"
+	//"github.com/onethefour/go_nyzo/internal/nyzo/utilities"
+	"github.com/onethefour/go_nyzo/internal/nyzo/utilities"
 	"io/ioutil"
 	"strings"
 )

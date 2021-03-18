@@ -4,9 +4,9 @@ import (
 	"bufio"
 	"errors"
 	"fmt"
-	"go_nyzo/internal/logging"
-	"go_nyzo/internal/nyzo/configuration"
-	"go_nyzo/internal/nyzo/networking"
+	"github.com/onethefour/go_nyzo/internal/logging"
+	"github.com/onethefour/go_nyzo/internal/nyzo/configuration"
+	"github.com/onethefour/go_nyzo/internal/nyzo/networking"
 	"os"
 )
 

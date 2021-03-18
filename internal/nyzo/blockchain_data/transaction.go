@@ -7,8 +7,8 @@ import (
 	"bytes"
 	"crypto/ed25519"
 	"errors"
-	"go_nyzo/internal/nyzo/messages/message_content/message_fields"
-	"go_nyzo/internal/nyzo/utilities"
+	"github.com/onethefour/go_nyzo/internal/nyzo/messages/message_content/message_fields"
+	"github.com/onethefour/go_nyzo/internal/nyzo/utilities"
 	"io"
 	"sort"
 )

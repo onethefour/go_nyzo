@@ -1,8 +1,8 @@
 package key_value_store
 
 import (
-	"go_nyzo/internal/nyzo/configuration"
-	"go_nyzo/internal/nyzo/interfaces"
+	"github.com/onethefour/go_nyzo/internal/nyzo/configuration"
+	"github.com/onethefour/go_nyzo/internal/nyzo/interfaces"
 	"math/rand"
 	"strconv"
 	"testing"

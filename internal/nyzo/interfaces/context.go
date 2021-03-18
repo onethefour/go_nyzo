@@ -7,9 +7,9 @@ RunMode here is more convenient than handling it like the more complex component
 package interfaces
 
 import (
-	"go_nyzo/internal/logging"
-	"go_nyzo/internal/nyzo/configuration"
-	"go_nyzo/pkg/identity"
+	"github.com/onethefour/go_nyzo/internal/logging"
+	"github.com/onethefour/go_nyzo/internal/nyzo/configuration"
+	"github.com/onethefour/go_nyzo/pkg/identity"
 	"sync"
 	"sync/atomic"
 )
