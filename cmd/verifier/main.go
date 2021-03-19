@@ -4,7 +4,7 @@ This is the main package for the verifier application, it sets up the verifier a
 package main
 
 import (
-	"github.com/onethefour/go_nyzo/internal/nyzo"
+	"github.com/onethefour/go_nyzo/nyzo"
 )
 
 func main() {
