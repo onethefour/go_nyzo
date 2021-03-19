@@ -88,7 +88,20 @@ func ToNyzoString(stringType int, content []byte) string {
 	allBytes = append(allBytes, content...)
 	checksum := utilities.DoubleSha256(allBytes)
 	allBytes = append(allBytes, checksum[0:checksumLength]...)
+	println(hex.EncodeToString(allBytes))
 	return bytesToEncodedString(allBytes)
+}
+func FromNyzoString(data string)([]byte,error){
+	dataBytes := encodedStringToBytes(data)
+	if len(dataBytes)<4{
+		return nil,errors.New("len < 4")
+	}
+	n := int(dataBytes[3])
+	if len(dataBytes)<n+4{
+		println(dataBytes[3],n)
+		return nil,errors.New("invalid data:"+data)
+	}
+	return dataBytes[4:n+4],nil
 }
 
 // encodedStringToBytes converts a Nyzo string style encoded string to a byte array

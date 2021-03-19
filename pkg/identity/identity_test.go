@@ -1,6 +1,7 @@
 package identity
 
 import (
+	"encoding/hex"
 	"os"
 	"path/filepath"
 	"testing"
@@ -53,4 +54,17 @@ func TestFromPrivateKeyFile(t *testing.T) {
 			}
 		}
 	}
+}
+
+
+func Test_encoding(t *testing.T){
+	b2 := encodedStringToBytes("id__86NfwfQXH6ST0jhVmrvkHmPrBD~XJ9EjG6Geb~U~vSbEkVTvpJ8n")
+	t.Log(hex.EncodeToString(b2))
+	priBytes,_ := hex.DecodeString("6c0f7cfcb9a86d3501347755a794a95c5a926fb9b099d3a46a4e2fedbe7b42e7")
+	t.Log(ToNyzoString(2,priBytes))
+	d,err := FromNyzoString("id__86NfwfQXH6ST0jhVmrvkHmPrBD~XJ9EjG6Geb~U~vSbEkVTvpJ8n")
+	if err != nil {
+		panic(err.Error())
+	}
+	t.Log(hex.EncodeToString(d))
 }
