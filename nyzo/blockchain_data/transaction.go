@@ -97,7 +97,9 @@ func (t *Transaction) GetSerializedLength() int {
 func (t *Transaction) ToBytes() []byte {
 	return t.serialize(false)
 }
-
+func (t *Transaction) Serialize(forSigning bool) []byte {
+	return t.serialize(forSigning)
+}
 // Serialize (for message passing or signing)
 func (t *Transaction) serialize(forSigning bool) []byte {
 	var serialized []byte
